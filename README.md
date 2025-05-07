@@ -14,7 +14,7 @@ This project provides a framework for fine-tuning the GPT-2 language model on a 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aimldlnlp/prodigy_text-generation-with-gpt-2.git
    cd prodigy_text-generation-with-gpt-2
    ```
 
