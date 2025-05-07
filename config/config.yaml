@@ -1,0 +1,12 @@
+model_name: gpt2
+train_file: data/your_dataset.txt
+output_dir: models/gpt2-finetuned
+tokenizer_dir: models/tokenizer
+max_length: 512
+train_batch_size: 4
+eval_batch_size: 4
+num_train_epochs: 3
+logging_steps: 50
+save_steps: 500
+eval_steps: 500
+learning_rate: 5e-5

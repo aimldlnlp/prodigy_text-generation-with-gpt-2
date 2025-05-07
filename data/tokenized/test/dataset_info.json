@@ -1,0 +1,59 @@
+{
+  "builder_name": "text",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "text",
+  "dataset_size": 844,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/Zidan/Documents/Kuliah/Semester 6/Intern_Prodigy/prodigy_text-generation-with-gpt-2/data/your_dataset.txt": {
+      "num_bytes": 826,
+      "checksum": null
+    }
+  },
+  "download_size": 826,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1670,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 844,
+      "num_examples": 9,
+      "dataset_name": "text"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
